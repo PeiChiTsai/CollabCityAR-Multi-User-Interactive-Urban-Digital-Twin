@@ -1,0 +1,667 @@
+PS C:\Users\PeggyTsai> adb -s 10.129.123.116:5555 logcat -s Unity -e "Variant\(Clone\)\]"
+--------- beginning of main
+07-22 15:05:06.830 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.012800°, Lat: 51.539000°, H: 100.00 m
+07-22 15:05:06.830 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:05:06.830 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:05:06.830 18921 18941 I Unity   :
+07-22 15:06:47.210 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.012800°, Lat: 51.539000°, H: 100.00 m
+07-22 15:06:47.210 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:06:47.210 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:06:47.210 18921 18941 I Unity   :
+07-22 15:07:54.051 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:07:54.051 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:07:54.051 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:07:54.051 18921 18941 I Unity   :
+07-22 15:07:54.052 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:07:54.052 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:07:54.052 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:07:54.052 18921 18941 I Unity   :
+07-22 15:07:57.481 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:07:57.481 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:07:57.481 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:07:57.481 18921 18941 I Unity   :
+07-22 15:07:57.482 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:07:57.482 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:07:57.482 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:07:57.482 18921 18941 I Unity   :
+07-22 15:08:00.311 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:08:00.311 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:00.311 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:00.311 18921 18941 I Unity   :
+07-22 15:08:00.313 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:08:00.313 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:00.313 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:00.313 18921 18941 I Unity   :
+07-22 15:08:03.707 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:08:03.707 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:03.707 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:03.707 18921 18941 I Unity   :
+07-22 15:08:03.709 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:08:03.709 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:03.709 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:03.709 18921 18941 I Unity   :
+07-22 15:08:06.867 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:08:06.867 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:06.867 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:06.867 18921 18941 I Unity   :
+07-22 15:08:06.868 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:08:06.868 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:06.868 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:06.868 18921 18941 I Unity   :
+07-22 15:08:15.790 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.012800°, Lat: 51.539000°, H: 100.00 m
+07-22 15:08:15.790 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:15.790 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:15.790 18921 18941 I Unity   :
+07-22 15:08:16.352 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:08:16.352 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:16.352 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:16.352 18921 18941 I Unity   :
+07-22 15:08:16.355 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:08:16.355 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:16.355 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:16.355 18921 18941 I Unity   :
+07-22 15:08:16.356 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.019143°, Lat: 51.535161°, H: 105.58 m
+07-22 15:08:16.356 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:16.356 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:16.356 18921 18941 I Unity   :
+07-22 15:08:19.512 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:08:19.512 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:19.512 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:19.512 18921 18941 I Unity   :
+07-22 15:08:19.514 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:08:19.514 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:19.514 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:19.514 18921 18941 I Unity   :
+07-22 15:08:19.515 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.019143°, Lat: 51.535161°, H: 105.58 m
+07-22 15:08:19.515 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:19.515 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:19.515 18921 18941 I Unity   :
+07-22 15:08:22.596 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:08:22.596 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:22.596 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:22.596 18921 18941 I Unity   :
+07-22 15:08:22.596 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:08:22.596 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:22.596 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:22.596 18921 18941 I Unity   :
+07-22 15:08:22.597 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.019143°, Lat: 51.535161°, H: 105.58 m
+07-22 15:08:22.597 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:22.597 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:22.597 18921 18941 I Unity   :
+07-22 15:08:25.781 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:08:25.781 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:25.781 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:25.781 18921 18941 I Unity   :
+07-22 15:08:25.782 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:08:25.782 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:25.782 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:25.782 18921 18941 I Unity   :
+07-22 15:08:25.783 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.019143°, Lat: 51.535161°, H: 105.58 m
+07-22 15:08:25.783 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:25.783 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:25.783 18921 18941 I Unity   :
+07-22 15:08:29.025 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:08:29.025 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:29.025 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:29.025 18921 18941 I Unity   :
+07-22 15:08:29.029 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:08:29.029 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:29.029 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:29.029 18921 18941 I Unity   :
+07-22 15:08:29.034 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.019143°, Lat: 51.535161°, H: 105.58 m
+07-22 15:08:29.034 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:29.034 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:29.034 18921 18941 I Unity   :
+07-22 15:08:29.871 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.012800°, Lat: 51.539000°, H: 100.00 m
+07-22 15:08:29.871 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:29.871 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:29.871 18921 18941 I Unity   :
+07-22 15:08:32.244 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:08:32.244 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:32.244 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:32.244 18921 18941 I Unity   :
+07-22 15:08:32.244 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:08:32.244 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:32.244 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:32.244 18921 18941 I Unity   :
+07-22 15:08:32.245 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.019143°, Lat: 51.535161°, H: 105.58 m
+07-22 15:08:32.245 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:32.245 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:32.245 18921 18941 I Unity   :
+07-22 15:08:32.245 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:08:32.245 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:32.245 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:32.245 18921 18941 I Unity   :
+07-22 15:08:39.955 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.012800°, Lat: 51.539000°, H: 100.00 m
+07-22 15:08:39.955 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:08:39.955 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:08:39.955 18921 18941 I Unity   :
+07-22 15:09:08.651 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.012800°, Lat: 51.539000°, H: 100.00 m
+07-22 15:09:08.651 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:09:08.651 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:09:08.651 18921 18941 I Unity   :
+07-22 15:09:27.600 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:09:27.600 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:09:27.600 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:09:27.600 18921 18941 I Unity   :
+07-22 15:09:30.150 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012800°, Lat: 51.539000°, H: 100.00 m
+07-22 15:09:30.150 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:09:30.150 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:09:30.150 18921 18941 I Unity   :
+07-22 15:10:07.918 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:10:07.918 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:07.918 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:07.918 18921 18941 I Unity   :
+07-22 15:10:07.919 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:10:07.919 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:07.919 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:07.919 18921 18941 I Unity   :
+07-22 15:10:07.920 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:10:07.920 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:07.920 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:07.920 18921 18941 I Unity   :
+07-22 15:10:07.921 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:10:07.921 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:07.921 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:07.921 18921 18941 I Unity   :
+07-22 15:10:07.922 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:10:07.922 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:07.922 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:07.922 18921 18941 I Unity   :
+07-22 15:10:07.923 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027264°, Lat: 51.533351°, H: 85.12 m
+07-22 15:10:07.923 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:07.923 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:07.923 18921 18941 I Unity   :
+07-22 15:10:07.924 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:10:07.924 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:07.924 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:07.924 18921 18941 I Unity   :
+07-22 15:10:11.042 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:10:11.042 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:11.042 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:11.042 18921 18941 I Unity   :
+07-22 15:10:11.043 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:10:11.043 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:11.043 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:11.043 18921 18941 I Unity   :
+07-22 15:10:11.043 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:10:11.043 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:11.043 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:11.043 18921 18941 I Unity   :
+07-22 15:10:11.044 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:10:11.044 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:11.044 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:11.044 18921 18941 I Unity   :
+07-22 15:10:11.044 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:10:11.044 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:11.044 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:11.044 18921 18941 I Unity   :
+07-22 15:10:11.044 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027264°, Lat: 51.533351°, H: 85.12 m
+07-22 15:10:11.044 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:11.044 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:11.044 18921 18941 I Unity   :
+07-22 15:10:11.045 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:10:11.045 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:11.045 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:11.045 18921 18941 I Unity   :
+07-22 15:10:14.256 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:10:14.256 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:14.256 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:14.256 18921 18941 I Unity   :
+07-22 15:10:14.257 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:10:14.257 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:14.257 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:14.257 18921 18941 I Unity   :
+07-22 15:10:14.258 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:10:14.258 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:14.258 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:14.258 18921 18941 I Unity   :
+07-22 15:10:14.259 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:10:14.259 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:14.259 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:14.259 18921 18941 I Unity   :
+07-22 15:10:14.260 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:10:14.260 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:14.260 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:14.260 18921 18941 I Unity   :
+07-22 15:10:14.261 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027264°, Lat: 51.533351°, H: 85.12 m
+07-22 15:10:14.261 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:14.261 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:14.261 18921 18941 I Unity   :
+07-22 15:10:14.262 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:10:14.262 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:14.262 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:14.262 18921 18941 I Unity   :
+07-22 15:10:17.350 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:10:17.350 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:17.350 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:17.350 18921 18941 I Unity   :
+07-22 15:10:17.351 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:10:17.351 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:17.351 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:17.351 18921 18941 I Unity   :
+07-22 15:10:17.351 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:10:17.351 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:17.351 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:17.351 18921 18941 I Unity   :
+07-22 15:10:17.351 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:10:17.351 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:17.351 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:17.351 18921 18941 I Unity   :
+07-22 15:10:17.353 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:10:17.353 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:17.353 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:17.353 18921 18941 I Unity   :
+07-22 15:10:17.354 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027264°, Lat: 51.533351°, H: 85.12 m
+07-22 15:10:17.354 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:17.354 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:17.354 18921 18941 I Unity   :
+07-22 15:10:17.354 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:10:17.354 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:17.354 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:17.354 18921 18941 I Unity   :
+07-22 15:10:20.502 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:10:20.502 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:20.502 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:20.502 18921 18941 I Unity   :
+07-22 15:10:20.502 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:10:20.502 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:20.502 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:20.502 18921 18941 I Unity   :
+07-22 15:10:20.503 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:10:20.503 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:20.503 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:20.503 18921 18941 I Unity   :
+07-22 15:10:20.503 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:10:20.503 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:20.503 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:20.503 18921 18941 I Unity   :
+07-22 15:10:20.504 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:10:20.504 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:20.504 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:20.504 18921 18941 I Unity   :
+07-22 15:10:20.504 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027264°, Lat: 51.533351°, H: 85.12 m
+07-22 15:10:20.504 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:20.504 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:20.504 18921 18941 I Unity   :
+07-22 15:10:20.504 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:10:20.504 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:20.504 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:20.504 18921 18941 I Unity   :
+07-22 15:10:36.237 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015169°, Lat: 51.543625°, H: 74.65 m
+07-22 15:10:36.237 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:36.237 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:36.237 18921 18941 I Unity   :
+07-22 15:10:36.238 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:10:36.238 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:36.238 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:36.238 18921 18941 I Unity   :
+07-22 15:10:36.238 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:10:36.238 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:36.238 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:36.238 18921 18941 I Unity   :
+07-22 15:10:36.239 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:10:36.239 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:36.239 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:36.239 18921 18941 I Unity   :
+07-22 15:10:36.239 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:10:36.239 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:36.239 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:36.239 18921 18941 I Unity   :
+07-22 15:10:36.240 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027264°, Lat: 51.533351°, H: 85.12 m
+07-22 15:10:36.240 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:36.240 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:36.240 18921 18941 I Unity   :
+07-22 15:10:36.241 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:10:36.241 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:10:36.241 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:10:36.241 18921 18941 I Unity   :
+07-22 15:11:44.689 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015164°, Lat: 51.543617°, H: 74.51 m
+07-22 15:11:44.689 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:11:44.689 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:11:44.689 18921 18941 I Unity   :
+07-22 15:11:45.098 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.015099°, Lat: 51.543843°, H: 74.31 m
+07-22 15:11:45.098 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:11:45.098 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:11:45.098 18921 18941 I Unity   :
+07-22 15:12:11.579 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:12:11.579 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:11.579 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:11.579 18921 18941 I Unity   :
+07-22 15:12:11.580 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:12:11.580 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:11.580 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:11.580 18921 18941 I Unity   :
+07-22 15:12:11.582 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:12:11.582 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:11.582 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:11.582 18921 18941 I Unity   :
+07-22 15:12:11.583 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:12:11.583 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:11.583 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:11.583 18921 18941 I Unity   :
+07-22 15:12:11.584 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027264°, Lat: 51.533351°, H: 85.12 m
+07-22 15:12:11.584 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:11.584 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:11.584 18921 18941 I Unity   :
+07-22 15:12:11.586 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:12:11.586 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:11.586 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:11.586 18921 18941 I Unity   :
+07-22 15:12:27.409 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:12:27.409 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:27.409 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:27.409 18921 18941 I Unity   :
+07-22 15:12:27.410 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:12:27.410 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:27.410 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:27.410 18921 18941 I Unity   :
+07-22 15:12:27.410 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:12:27.410 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:27.410 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:27.410 18921 18941 I Unity   :
+07-22 15:12:27.411 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:12:27.411 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:27.411 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:27.411 18921 18941 I Unity   :
+07-22 15:12:27.411 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027264°, Lat: 51.533351°, H: 85.12 m
+07-22 15:12:27.411 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:27.411 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:27.411 18921 18941 I Unity   :
+07-22 15:12:27.412 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:12:27.412 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:27.412 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:27.412 18921 18941 I Unity   :
+07-22 15:12:52.807 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:12:52.807 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:52.807 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:52.807 18921 18941 I Unity   :
+07-22 15:12:52.808 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:12:52.808 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:52.808 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:52.808 18921 18941 I Unity   :
+07-22 15:12:52.812 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:12:52.812 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:52.812 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:52.812 18921 18941 I Unity   :
+07-22 15:12:52.815 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:12:52.815 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:52.815 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:52.815 18921 18941 I Unity   :
+07-22 15:12:52.816 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:12:52.816 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:52.816 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:52.816 18921 18941 I Unity   :
+07-22 15:12:55.925 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:12:55.925 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:55.925 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:55.925 18921 18941 I Unity   :
+07-22 15:12:55.928 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:12:55.928 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:55.928 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:55.928 18921 18941 I Unity   :
+07-22 15:12:55.930 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:12:55.930 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:55.930 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:55.930 18921 18941 I Unity   :
+07-22 15:12:55.931 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:12:55.931 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:55.931 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:55.931 18921 18941 I Unity   :
+07-22 15:12:55.933 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:12:55.933 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:55.933 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:55.933 18921 18941 I Unity   :
+07-22 15:12:59.266 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:12:59.266 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:59.266 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:59.266 18921 18941 I Unity   :
+07-22 15:12:59.267 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:12:59.267 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:59.267 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:59.267 18921 18941 I Unity   :
+07-22 15:12:59.268 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:12:59.268 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:59.268 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:59.268 18921 18941 I Unity   :
+07-22 15:12:59.269 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:12:59.269 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:59.269 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:59.269 18921 18941 I Unity   :
+07-22 15:12:59.271 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:12:59.271 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:12:59.271 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:12:59.271 18921 18941 I Unity   :
+07-22 15:13:02.283 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:13:02.283 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:02.283 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:02.283 18921 18941 I Unity   :
+07-22 15:13:02.283 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:13:02.283 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:02.283 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:02.283 18921 18941 I Unity   :
+07-22 15:13:02.284 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:13:02.284 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:02.284 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:02.284 18921 18941 I Unity   :
+07-22 15:13:02.284 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:13:02.284 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:02.284 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:02.284 18921 18941 I Unity   :
+07-22 15:13:02.285 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:13:02.285 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:02.285 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:02.285 18921 18941 I Unity   :
+07-22 15:13:05.471 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:13:05.471 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:05.471 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:05.471 18921 18941 I Unity   :
+07-22 15:13:05.472 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:13:05.472 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:05.472 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:05.472 18921 18941 I Unity   :
+07-22 15:13:05.473 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:13:05.473 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:05.473 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:05.473 18921 18941 I Unity   :
+07-22 15:13:05.473 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:13:05.473 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:05.473 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:05.473 18921 18941 I Unity   :
+07-22 15:13:05.474 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:13:05.474 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:05.474 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:05.474 18921 18941 I Unity   :
+07-22 15:13:08.731 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:13:08.731 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:08.731 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:08.731 18921 18941 I Unity   :
+07-22 15:13:08.733 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:13:08.733 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:08.733 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:08.733 18921 18941 I Unity   :
+07-22 15:13:08.734 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:13:08.734 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:08.734 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:08.734 18921 18941 I Unity   :
+07-22 15:13:08.735 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:13:08.735 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:08.735 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:08.735 18921 18941 I Unity   :
+07-22 15:13:08.736 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:13:08.736 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:08.736 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:08.736 18921 18941 I Unity   :
+07-22 15:13:14.668 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.012800°, Lat: 51.539000°, H: 100.00 m
+07-22 15:13:14.668 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:14.668 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:14.668 18921 18941 I Unity   :
+07-22 15:13:15.562 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:13:15.562 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:15.562 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:15.562 18921 18941 I Unity   :
+07-22 15:13:15.563 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:13:15.563 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:15.563 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:15.563 18921 18941 I Unity   :
+07-22 15:13:15.564 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:13:15.564 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:15.564 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:15.564 18921 18941 I Unity   :
+07-22 15:13:15.565 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:13:15.565 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:15.565 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:15.565 18921 18941 I Unity   :
+07-22 15:13:15.565 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:13:15.565 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:15.565 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:15.565 18921 18941 I Unity   :
+07-22 15:13:15.566 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027025°, Lat: 51.533456°, H: 66.80 m
+07-22 15:13:15.566 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:15.566 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:15.566 18921 18941 I Unity   :
+07-22 15:13:18.199 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:13:18.199 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:18.199 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:18.199 18921 18941 I Unity   :
+07-22 15:13:18.200 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:13:18.200 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:18.200 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:18.200 18921 18941 I Unity   :
+07-22 15:13:18.200 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:13:18.200 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:18.200 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:18.200 18921 18941 I Unity   :
+07-22 15:13:18.201 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:13:18.201 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:18.201 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:18.201 18921 18941 I Unity   :
+07-22 15:13:18.202 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:13:18.202 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:18.202 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:18.202 18921 18941 I Unity   :
+07-22 15:13:18.203 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027025°, Lat: 51.533456°, H: 66.80 m
+07-22 15:13:18.203 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:18.203 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:18.203 18921 18941 I Unity   :
+07-22 15:13:21.435 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:13:21.435 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:21.435 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:21.435 18921 18941 I Unity   :
+07-22 15:13:21.436 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:13:21.436 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:21.436 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:21.436 18921 18941 I Unity   :
+07-22 15:13:21.441 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:13:21.441 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:21.441 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:21.441 18921 18941 I Unity   :
+07-22 15:13:21.442 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:13:21.442 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:21.442 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:21.442 18921 18941 I Unity   :
+07-22 15:13:21.443 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:13:21.443 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:21.443 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:21.443 18921 18941 I Unity   :
+07-22 15:13:21.444 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027025°, Lat: 51.533456°, H: 66.80 m
+07-22 15:13:21.444 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:21.444 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:21.444 18921 18941 I Unity   :
+07-22 15:13:24.663 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:13:24.663 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:24.663 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:24.663 18921 18941 I Unity   :
+07-22 15:13:24.665 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:13:24.665 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:24.665 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:24.665 18921 18941 I Unity   :
+07-22 15:13:24.667 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:13:24.667 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:24.667 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:24.667 18921 18941 I Unity   :
+07-22 15:13:24.670 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:13:24.670 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:24.670 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:24.670 18921 18941 I Unity   :
+07-22 15:13:24.672 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:13:24.672 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:24.672 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:24.672 18921 18941 I Unity   :
+07-22 15:13:24.674 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027025°, Lat: 51.533456°, H: 66.80 m
+07-22 15:13:24.674 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:24.674 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:24.674 18921 18941 I Unity   :
+07-22 15:13:27.825 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:13:27.825 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:27.825 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:27.825 18921 18941 I Unity   :
+07-22 15:13:27.826 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:13:27.826 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:27.826 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:27.826 18921 18941 I Unity   :
+07-22 15:13:27.827 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:13:27.827 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:27.827 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:27.827 18921 18941 I Unity   :
+07-22 15:13:27.828 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:13:27.828 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:27.828 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:27.828 18921 18941 I Unity   :
+07-22 15:13:27.829 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:13:27.829 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:27.829 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:27.829 18921 18941 I Unity   :
+07-22 15:13:27.830 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027025°, Lat: 51.533456°, H: 66.80 m
+07-22 15:13:27.830 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:27.830 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:27.830 18921 18941 I Unity   :
+07-22 15:13:31.066 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:13:31.066 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:31.066 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:31.066 18921 18941 I Unity   :
+07-22 15:13:31.074 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:13:31.074 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:31.074 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:31.074 18921 18941 I Unity   :
+07-22 15:13:31.076 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:13:31.076 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:31.076 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:31.076 18921 18941 I Unity   :
+07-22 15:13:31.077 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:13:31.077 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:31.077 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:31.077 18921 18941 I Unity   :
+07-22 15:13:31.078 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:13:31.078 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:31.078 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:31.078 18921 18941 I Unity   :
+07-22 15:13:31.079 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027025°, Lat: 51.533456°, H: 66.80 m
+07-22 15:13:31.079 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:31.079 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:31.079 18921 18941 I Unity   :
+07-22 15:13:34.124 18921 18941 I Unity   : [OneVariant(Clone)] location → Lon: -0.017978°, Lat: 51.540085°, H: 99.29 m
+07-22 15:13:34.124 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:34.124 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:34.124 18921 18941 I Unity   :
+07-22 15:13:34.126 18921 18941 I Unity   : [TwoVariant(Clone)] location → Lon: -0.018118°, Lat: 51.534967°, H: 105.58 m
+07-22 15:13:34.126 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:34.126 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:34.126 18921 18941 I Unity   :
+07-22 15:13:34.127 18921 18941 I Unity   : [ThreeVariant(Clone)] location → Lon: -0.023686°, Lat: 51.536192°, H: 82.82 m
+07-22 15:13:34.127 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:34.127 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:34.127 18921 18941 I Unity   :
+07-22 15:13:34.129 18921 18941 I Unity   : [FourVariant(Clone)] location → Lon: -0.025913°, Lat: 51.532032°, H: 85.99 m
+07-22 15:13:34.129 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:34.129 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:34.129 18921 18941 I Unity   :
+07-22 15:13:34.130 18921 18941 I Unity   : [SixVariant(Clone)] location → Lon: -0.012492°, Lat: 51.539780°, H: 84.20 m
+07-22 15:13:34.130 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:34.130 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:34.130 18921 18941 I Unity   :
+07-22 15:13:34.132 18921 18941 I Unity   : [FiveVariant(Clone)] location → Lon: -0.027025°, Lat: 51.533456°, H: 66.80 m
+07-22 15:13:34.132 18921 18941 I Unity   : UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+07-22 15:13:34.132 18921 18941 I Unity   : LogGeoPositionOnMove:Update()
+07-22 15:13:34.132 18921 18941 I Unity   :
+PS C:\Users\PeggyTsai>
