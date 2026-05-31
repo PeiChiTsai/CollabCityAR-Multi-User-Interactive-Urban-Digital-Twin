@@ -1,5 +1,3 @@
-Please be aware that this README was edited after 22 Aug 2025. Except README, all other files remain the same as it was uploaded on 22 Aug 2025. Should you need to access the old version, please click on [this link](https://github.com/PeiChiTsai/CollabCityAR-Multi-User-Interactive-Urban-Digital-Twin/tree/5367423fbb5a75e67a8d76d6cff6255ca7704854).
-
 # CollabCity AR - Multi-User Interactive Urban Digital Twin
 
 ## 🔹 Overview
