@@ -1,51 +1,191 @@
-# CollabCity AR - Multi-User Interactive Urban Digital Twin
+<div align="center">
 
-A Unity-based multi-user Augmented Reality (AR) prototype for collaborative interaction with a geospatial Urban Digital Twin (UDT).
+# CollabCity AR
+
+**Multi-User Interactive Urban Digital Twin for Collaborative Geospatial Interaction**
+
+[![Unity](https://img.shields.io/badge/Unity-6000.0.46f1-000000?logo=unity&logoColor=white)](https://unity.com/)
+[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
+[![ARCore](https://img.shields.io/badge/AR-Google%20ARCore-4285F4?logo=google&logoColor=white)](https://developers.google.com/ar)
+[![Cesium](https://img.shields.io/badge/Geospatial-Cesium-6C6CFF)](https://cesium.com/)
+[![Ubiq](https://img.shields.io/badge/Networking-Ubiq-111827)](https://ubiq.online/)
+
+**[Overview](#overview) · [Architecture](#system-architecture) · [Quick Start](#quick-start) · [Usage](#usage) · [Tech Stack](#technology-stack)**
+
+</div>
+
+---
 
 ## Overview
 
-**CollabCity AR** is a multi-user AR prototype developed as part of Pei-Chi Tsai's MRes research at the Centre for Advanced Spatial Analysis (CASA), UCL.
+**CollabCity AR** is a Unity-based multi-user Augmented Reality (AR) prototype for interacting with a geospatial **Urban Digital Twin (UDT)**.
 
-The project explores how an AR-based Urban Digital Twin can provide a shared spatial environment in which multiple users can visualise geospatial data and interact with spatial objects in real time.
+The project creates a shared AR environment where multiple handheld devices can:
 
-The prototype integrates:
+- Align to the same physical spatial reference
+- Visualise georeferenced 3D city data
+- Join the same multi-user session
+- Place and manipulate shared spatial markers
+- Synchronise object states in real time
+- Record geospatial interaction events for analysis
 
-- **Google ARCore** for spatial alignment between devices
-- **Cesium for Unity** for geospatial visualisation
-- **Ubiq** for real-time multi-user networking
-- **Unity** for AR interaction and application development
+The prototype was developed as part of Pei-Chi Tsai's MRes research at the **Centre for Advanced Spatial Analysis (CASA), UCL**.
 
-The current implementation uses Queen Elizabeth Olympic Park, London, as the geospatial context.
+The current prototype uses **Queen Elizabeth Olympic Park, London** as its geospatial context.
 
-## Features
+---
 
-### AR Spatial Alignment
+## What it does
 
-Uses **Google ARCore Cloud Anchors** to establish a shared spatial reference between multiple devices.
+```text
+Physical Environment
+        │
+        ▼
+┌──────────────────────────┐
+│   ARCore Cloud Anchor    │
+│   Shared spatial frame   │
+└────────────┬─────────────┘
+             │
+             ▼
+┌──────────────────────────┐
+│    Cesium for Unity      │
+│  Geospatial 3D context   │
+└────────────┬─────────────┘
+             │
+             ▼
+┌──────────────────────────┐
+│     Ubiq Networking      │
+│  Multi-user interaction  │
+└────────────┬─────────────┘
+             │
+             ▼
+┌──────────────────────────┐
+│   Interactive Markers    │
+│ Place · Move · Rotate    │
+│ Scale · Delete           │
+└────────────┬─────────────┘
+             │
+             ▼
+┌──────────────────────────┐
+│    Interaction Logs      │
+│  Spatial + temporal data │
+└──────────────────────────┘
+```
 
-Users can either:
+The system separates **spatial alignment**, **geospatial visualisation**, **multi-user synchronisation**, and **interaction logging** into a four-layer workflow.
 
-- Host a new Cloud Anchor
-- Resolve an existing Cloud Anchor using its ID
+---
 
-This allows virtual content to be positioned consistently within the shared physical environment.
+# Quick Start
 
-### Geospatial Visualisation
+### 1. Clone the repository
 
-Uses **Cesium for Unity** and **Cesium ion** to stream geospatial 3D content.
+```bash
+git clone https://github.com/PeiChiTsai/CollabCityAR-Multi-User-Interactive-Urban-Digital-Twin.git
+cd CollabCityAR-Multi-User-Interactive-Urban-Digital-Twin
+```
 
-The prototype includes:
+### 2. Open the project
+
+Open the repository in:
+
+```text
+Unity 6000.0.46f1
+```
+
+### 3. Install dependencies
+
+The project requires:
+
+- **AR Foundation**
+- **Google ARCore**
+- **ARCore Extensions**
+- **Cesium for Unity**
+- **Ubiq**
+
+### 4. Configure external services
+
+The prototype relies on external services for spatial alignment and geospatial streaming.
+
+You will need to configure:
+
+- **Google ARCore API / Cloud Anchors**
+- **Cesium ion**
+
+Keep API credentials and access tokens local. Do **not** commit them to the repository.
+
+### 5. Build for Android
+
+Build the project for an **ARCore-compatible Android device**.
+
+The original prototype was tested on:
+
+- Google Pixel 6a
+- Google Pixel 7
+- Android 12+
+
+A stable internet connection is required for the multi-user networking workflow.
+
+---
+
+# Features
+
+## Spatial Alignment
+
+### Google ARCore Cloud Anchors
+
+The application uses **ARCore Cloud Anchors** to establish a shared spatial reference between devices.
+
+Two workflows are supported:
+
+```text
+Host a New Anchor
+        │
+        ├── Detect surface
+        ├── Place anchor
+        ├── Capture environment features
+        └── Upload / share Anchor ID
+```
+
+and:
+
+```text
+Resolve Existing Anchor
+        │
+        ├── Enter Anchor ID
+        ├── Scan environment
+        ├── Match visual features
+        └── Resolve shared spatial position
+```
+
+This shared anchor provides the spatial reference used by the multi-user AR environment.
+
+---
+
+## Geospatial Visualisation
+
+### Cesium for Unity
+
+The urban environment is rendered using **Cesium for Unity** and **Cesium ion**.
+
+The prototype uses:
 
 - Google Photorealistic 3D Tiles
-- Real-world geographic coordinates
-- Georeferenced 3D terrain and buildings
-- Spatial Point-of-Interest (POI) visualisation
+- Cesium Georeference
+- WGS84 geographic coordinates
+- Georeferenced 3D terrain and building geometry
 
-### Multi-User Networking
+The current scene is configured around **Queen Elizabeth Olympic Park, London**.
 
-Uses the **Ubiq networking framework** to synchronise user interactions across devices.
+---
 
-The system supports real-time synchronisation of:
+## Multi-User Networking
+
+### Ubiq
+
+**Ubiq for Unity** provides real-time synchronisation between participants.
+
+The networking layer handles shared:
 
 - User identity
 - Object creation
@@ -53,216 +193,313 @@ The system supports real-time synchronisation of:
 - Object rotation
 - Object state
 
-Object transformations are synchronised using coordinates relative to the shared AR anchor.
+Objects are synchronised using coordinates relative to the shared AR anchor, allowing each device to reconstruct the corresponding world-space position.
 
-### Interactive Spatial Markers
+---
 
-Users can place and manipulate numbered spatial markers within the AR environment.
+## Interactive Spatial Markers
 
-Markers support:
+The prototype provides a set of placeable 3D markers for spatial interaction.
 
-- Placement
-- Movement
-- Rotation
-- Scaling
-- Deletion
-
-Visual states are used to communicate interaction and ownership between users. Each user's objects are assigned a corresponding user colour, while selected and actively manipulated objects are visually distinguished.
-
-### Geospatial Interaction Logging
-
-The prototype records spatial interaction events for subsequent analysis.
-
-Logged information includes:
-
-- Timestamp
-- Object identity
-- User identity
-- Longitude
-- Latitude
-- Elevation
-- Interaction state
-
-## System Architecture
-
-The prototype consists of four main components:
+Users can:
 
 ```text
-                 ┌───────────────────────┐
-                 │   Google ARCore       │
-                 │   Cloud Anchors       │
-                 └───────────┬───────────┘
-                             │
-                             ▼
-                 ┌───────────────────────┐
-                 │   Shared AR Space     │
-                 │   Spatial Alignment   │
-                 └───────────┬───────────┘
-                             │
-              ┌──────────────┴──────────────┐
-              │                             │
-              ▼                             ▼
-   ┌────────────────────┐        ┌────────────────────┐
-   │ Cesium for Unity   │        │ Ubiq Networking    │
-   │                    │        │                    │
-   │ 3D Tiles           │        │ Multi-user sync    │
-   │ Terrain            │        │ Object states      │
-   │ Buildings          │        │ User identity      │
-   └─────────┬──────────┘        └─────────┬──────────┘
-             │                             │
-             └──────────────┬──────────────┘
-                            ▼
-                 ┌───────────────────────┐
-                 │  AR Interaction       │
-                 │  & Spatial Markers    │
-                 └───────────┬───────────┘
-                             │
-                             ▼
-                 ┌───────────────────────┐
-                 │   Interaction Logs    │
-                 │   + Geospatial Data   │
-                 └───────────────────────┘
+Place
+  ↓
+Move
+  ↓
+Rotate
+  ↓
+Scale
+  ↓
+Delete
 ```
 
-## Technology Stack
+Markers are used to externalise spatial ideas and support shared interaction within the AR scene.
 
-| Component | Technology |
+Visual indicators communicate interaction state and object ownership across devices. User-created objects are colour-coded by user identity, while selected and actively manipulated objects are visually distinguished.
+
+---
+
+## Interaction Logging
+
+The application records spatial interaction events for later analysis.
+
+Logged information can include:
+
+| Field | Description |
 |---|---|
-| Game / AR Engine | Unity 6000.0.46f1 |
-| AR Framework | AR Foundation |
-| Spatial Tracking | Google ARCore |
-| Spatial Synchronisation | ARCore Cloud Anchors |
-| Geospatial Visualisation | Cesium for Unity |
-| 3D Geospatial Data | Google Photorealistic 3D Tiles |
-| Multi-User Networking | Ubiq |
-| Platform | Android |
-| Device Testing | Google Pixel 6a / Pixel 7 |
-| Programming | C# |
+| Timestamp | Time of interaction |
+| Object ID | Marker / object identifier |
+| User ID | User associated with the object |
+| Longitude | Geographic longitude |
+| Latitude | Geographic latitude |
+| Elevation | Object height |
+| Interaction state | Current interaction / object state |
 
-The prototype was developed using Unity `6000.0.46f1` and deployed on Android devices supporting ARCore.
+The logging workflow links user interactions to their geographic locations within the digital twin.
 
-## Installation
+---
 
-### 1. Clone the repository
+# System Architecture
 
-```bash
-git clone https://github.com/PeiChiTsai/CollabCityAR-Multi-User-Interactive-Urban-Digital-Twin.git
-```
+The prototype is organised into four main layers.
 
-### 2. Open the project in Unity
+### Layer 1 — AR Spatial Alignment
 
-Open the repository using:
+**Google ARCore + Cloud Anchors**
+
+Establishes a common physical reference frame across devices.
+
+### Layer 2 — Spatial Data Visualisation
+
+**Cesium for Unity + Cesium ion**
+
+Provides the geospatial 3D environment and real-world coordinate reference.
+
+### Layer 3 — Multi-User Networking
+
+**Ubiq**
+
+Synchronises users and shared object interactions in real time.
+
+### Layer 4 — Data Logging
+
+**Unity logging workflow**
+
+Records interaction events together with their geospatial coordinates and timestamps.
 
 ```text
-Unity 6000.0.46f1
+┌──────────────────────────────────────────┐
+│  Layer 1                                 │
+│  ARCore Cloud Anchors                    │
+│  Spatial Alignment                       │
+└─────────────────────┬────────────────────┘
+                      │
+                      ▼
+┌──────────────────────────────────────────┐
+│  Layer 2                                 │
+│  Cesium for Unity                        │
+│  Geospatial Visualisation                │
+└─────────────────────┬────────────────────┘
+                      │
+                      ▼
+┌──────────────────────────────────────────┐
+│  Layer 3                                 │
+│  Ubiq                                    │
+│  Multi-User Synchronisation              │
+└─────────────────────┬────────────────────┘
+                      │
+                      ▼
+┌──────────────────────────────────────────┐
+│  Layer 4                                 │
+│  Interaction Logging                     │
+│  Spatial + Temporal Records              │
+└──────────────────────────────────────────┘
 ```
 
-### 3. Install / configure dependencies
+---
 
-The project requires:
+# Coordinate Synchronisation
 
-- AR Foundation
-- Google ARCore
-- ARCore Extensions
-- Cesium for Unity
-- Ubiq
+A key part of the implementation is the conversion between device-local coordinates and the shared AR anchor coordinate system.
 
-### 4. Configure external services
+For an object with world-space position `p_world`:
 
-The prototype requires authentication/configuration for external services, including:
+```text
+p_local = Rᵀ (p_world − t)
+```
 
-- **Google ARCore API / Cloud Anchors**
-- **Cesium ion**
+where:
 
-API credentials and access tokens should be configured locally and should **not** be committed to the repository.
+- `p_local` = anchor-relative position
+- `p_world` = world-space position
+- `t` = anchor translation
+- `R` = anchor rotation
+- `Rᵀ` = inverse anchor rotation
 
-### 5. Build for Android
+The system transmits anchor-relative transforms through Ubiq. Receiving devices reconstruct the world-space transform using their locally resolved Cloud Anchor.
 
-Build and deploy the project to an ARCore-compatible Android device.
+This separates **physical spatial alignment** from **networked interaction synchronisation**.
 
-The original prototype was tested on Google Pixel 6a and Pixel 7 devices running Android 12+. Stable internet connectivity is required for the networking workflow.
+---
 
-## Usage
+# Usage
 
-### Host a Shared AR Session
+## Host a New Shared Space
 
 1. Launch the application.
 2. Select **Host a New Anchor**.
-3. Detect a suitable surface.
+3. Detect a suitable physical surface.
 4. Place the anchor.
-5. Scan the surrounding environment until sufficient visual features are detected.
-6. Upload the anchor to ARCore.
-7. Share the generated Cloud Anchor ID with other devices.
+5. Scan the surrounding environment.
+6. Wait until sufficient visual features are detected.
+7. Upload the Cloud Anchor.
+8. Share the generated Anchor ID.
 
-### Join an Existing Session
+## Join an Existing Shared Space
 
 1. Launch the application.
 2. Select **Resolve an Existing Cloud Anchor**.
-3. Enter the Cloud Anchor ID.
-4. Scan the environment.
-5. Allow the system to resolve the shared anchor.
-6. Enter the shared multi-user session.
+3. Enter the shared Anchor ID.
+4. Scan the same physical environment.
+5. Allow ARCore to resolve the anchor.
+6. Join the shared multi-user session.
 
-Once synchronised, users can interact with the same geospatial environment and shared spatial objects.
+## Interact with the Digital Twin
 
-## Spatial Synchronisation
+Once synchronised, users can interact with the shared environment and:
 
-The prototype uses a three-stage synchronisation workflow:
+- Place markers
+- Move markers
+- Rotate markers
+- Scale markers
+- Delete markers
+- Observe other users' interactions
+
+---
+
+# Technology Stack
+
+| Category | Technology |
+|---|---|
+| Engine | **Unity 6000.0.46f1** |
+| AR Framework | **AR Foundation** |
+| Mobile AR | **Google ARCore** |
+| Spatial Alignment | **ARCore Cloud Anchors** |
+| Geospatial Engine | **Cesium for Unity** |
+| 3D Geospatial Data | **Google Photorealistic 3D Tiles** |
+| Geospatial Platform | **Cesium ion** |
+| Networking | **Ubiq for Unity** |
+| Platform | **Android** |
+| Development Language | **C#** |
+| Tested Devices | **Google Pixel 6a / Pixel 7** |
+
+---
+
+# Geospatial Data
+
+The prototype combines a 3D city environment with georeferenced Point-of-Interest data.
+
+### Base Environment
 
 ```text
-ARCore Cloud Anchor
-        ↓
-Shared Spatial Reference
-        ↓
-Anchor-Relative Coordinates
-        ↓
-Ubiq Network Synchronisation
-        ↓
-Consistent Object State
+Cesium ion
+    ↓
+Google Photorealistic 3D Tiles
+    ↓
+Cesium for Unity
+    ↓
+Georeferenced AR environment
 ```
 
-Object positions and rotations are converted into an anchor-relative coordinate system before being transmitted through Ubiq. Receiving devices reconstruct the corresponding world-space transform using their locally resolved Cloud Anchor.
+### POI Layers
 
-This approach separates **physical spatial alignment** from **networked interaction synchronisation**.
+The prototype includes contextual spatial datasets represented as interactive POI layers, including:
 
-## Geospatial Data
+- Wildlife observations
+- Bicycle / shared-bike locations
 
-The 3D environment is visualised using **Cesium for Unity**.
+The experimental implementation uses static mock datasets based on real-world open-data concepts so that the same spatial information can be used consistently within the prototype.
 
-The prototype uses:
+---
 
-- Cesium ion
-- Google Photorealistic 3D Tiles
-- Cesium Georeference
-- Geographic coordinates in WGS84
+# Project Structure
 
-The study environment is centred on **Queen Elizabeth Olympic Park, London**, with additional georeferenced POI layers for contextual spatial interaction.
+A Unity project typically contains:
 
-## Project Context
+```text
+CollabCityAR-Multi-User-Interactive-Urban-Digital-Twin/
+│
+├── Assets/
+│   ├── Scenes/
+│   ├── Scripts/
+│   ├── Prefabs/
+│   ├── Materials/
+│   ├── Resources/
+│   └── ...
+│
+├── Packages/
+│
+├── ProjectSettings/
+│
+├── Logs/
+│
+└── README.md
+```
 
-This prototype was developed for the following research project:
+The exact organisation may vary between project versions.
+
+---
+
+# Requirements
+
+## Hardware
+
+The device should support:
+
+- ARCore
+- Camera-based spatial tracking
+- Gyroscope
+- Depth / environmental sensing where supported
+- Stable internet connectivity
+
+## Development Environment
+
+The project was developed and tested with:
+
+```text
+Unity 6000.0.46f1
+Android 12+
+ARCore-compatible hardware
+```
+
+---
+
+# Notes
+
+### API Credentials
+
+This project depends on external services such as Google ARCore and Cesium ion.
+
+Before running the application, configure the required credentials locally.
+
+**Never commit API keys, access tokens, or private service credentials to GitHub.**
+
+### Network Environment
+
+Multi-user interaction depends on network connectivity. For the original prototype, devices were connected to the same Wi-Fi environment during testing.
+
+### Device Performance
+
+The application combines AR tracking, 3D geospatial rendering, and real-time networking. Performance may therefore vary between Android devices.
+
+---
+
+# Research Context
+
+This Unity prototype was developed for:
 
 **Collaborative Geospatial Decision-Making Using XR-Integrated Urban Digital Twins**
 
-The implementation focuses on the technical development of a shared AR environment for geospatial visualisation and multi-user spatial interaction.
+> *System usability evaluation and behavioural analysis in multi-user AR environments*
 
-For the research methodology, behavioural analysis, user evaluation, and findings, please refer to the associated dissertation.
+**Pei-Chi Tsai**  
+MRes Urban Spatial Science  
+Centre for Advanced Spatial Analysis (CASA)  
+University College London (UCL)
 
-## Dissertation
+---
 
-**Pei-Chi Tsai (2025)**  
-*Collaborative Geospatial Decision-Making Using XR-Integrated Urban Digital Twins: System usability evaluation and behavioural analysis in multi-user AR environments.*
-
-MRes Dissertation  
-Centre for Advanced Spatial Analysis (CASA), UCL
-
-## Related Paper
+# Related Publication
 
 **Comparing XR-Integrated Urban Digital Twins and 2D Platforms for Collaborative Spatial Decision-Making**
 
 Submitted to *Smart Cities*.
 
-## Citation
+---
+
+# Citation
 
 ```bibtex
 @thesis{tsai2025collaborative,
@@ -276,7 +513,9 @@ Submitted to *Smart Cities*.
 }
 ```
 
-## Acknowledgements
+---
+
+# Acknowledgements
 
 Developed at the **Centre for Advanced Spatial Analysis (CASA), UCL**.
 
