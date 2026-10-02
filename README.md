@@ -515,6 +515,15 @@ Submitted to *Smart Cities*.
 
 ---
 
+# License
+
+This project is released under the **MIT License**. See [`LICENSE`](LICENSE) for details.
+
+Third-party software, SDKs, libraries, datasets, and other external assets used by
+this project remain subject to their respective licences and terms of use.
+
+---
+
 # Acknowledgements
 
 Developed at the **Centre for Advanced Spatial Analysis (CASA), UCL**.
